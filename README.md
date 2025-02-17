@@ -1,4 +1,12 @@
 # Python Data Structures Lab
+In this lab, you’ll practice working with different data structures in Python, including lists, tuples, dictionaries, and more. By manipulating these data structures, you’ll gain a better understanding of how to organize and store data effectively in your Python programs.
+
+By the end of this lab, you will be able to:
+
+- Create and modify lists and tuples.
+- Utilize dictionaries for more complex data storage.
+- Iterate over data structures using loops.
+- Apply Python’s slicing and indexing features to access data.
 
 ## Setup 
 Open your Terminal application and navigate to your `~/code/ga/labs` directory:
@@ -35,15 +43,6 @@ code .
 ```
 
 ## Exercises
-
-In this lab, you’ll practice working with different data structures in Python, including lists, tuples, dictionaries, and more. By manipulating these data structures, you’ll gain a better understanding of how to organize and store data effectively in your Python programs.
-
-By the end of this lab, you will be able to:
-
-- Create and modify lists and tuples.
-- Utilize dictionaries for more complex data storage.
-- Iterate over data structures using loops.
-- Apply Python’s slicing and indexing features to access data.
 
 ### Getting Started
 - For each exercise, copy the provided code into a new Python script file named `exercises.py`.
