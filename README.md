@@ -92,7 +92,6 @@ print('Exercise 1:', manage_students())
 
 ### Exercise 2: Loop and String Concatenation
 ```py
-Copy
 # Exercise 2: Loop and String Concatenation
 #
 # Create a tuple named foods containing the same number of foods (strings) as there are names in the students list.
