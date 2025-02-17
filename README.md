@@ -88,7 +88,10 @@ def manage_students():
 
 # Call the function and print the result
 print('Exercise 1:', manage_students())
-Exercise 2: Loop and String Concatenation
+```
+
+### Exercise 2: Loop and String Concatenation
+```py
 Copy
 # Exercise 2: Loop and String Concatenation
 #
