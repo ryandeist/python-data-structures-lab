@@ -21,9 +21,9 @@ example_list_function()
 # Create a list named students containing at least three student names (strings).
 # Assign the second student’s name to a variable named first_student.
 # Assign the last student’s name to a variable named last_student.
-
+students = ['Adam', 'Jose', 'Matt', 'Ryan']
+    
 def manage_students():
-    students = ['Adam', 'Jose', 'Matt', 'Ryan']
     first_student=students[1]
     last_student=students[-1]
     
@@ -85,3 +85,17 @@ def list_home_town_items():
     return home_town_items
     
 print('Exercise 5:', list_home_town_items())
+
+# Exercise 6: Celebrate Students
+#
+# Using the list of students and a list comprehension, assign to a variable named awesome_students a new list containing strings.
+# For example: ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
+
+def create_awesome_students():
+    awesome_students = []
+    
+    for student in students:
+        awesome_students.append(f'{student} is awesome!')
+    
+    return awesome_students
+print('Exercise 6:', create_awesome_students())
