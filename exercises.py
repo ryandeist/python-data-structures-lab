@@ -92,10 +92,7 @@ print('Exercise 5:', list_home_town_items())
 # For example: ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
 
 def create_awesome_students():
-    awesome_students = []
-    
-    for student in students:
-        awesome_students.append(f'{student} is awesome!')
+    awesome_students = [(f'{student} is awesome!') for student in students]
     
     return awesome_students
 print('Exercise 6:', create_awesome_students())
